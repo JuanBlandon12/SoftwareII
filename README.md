@@ -8,51 +8,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p> -->
 
-## Acerca de Sistema PQRS
-Un sistema PQRS permite fácilmente que clientes o afiliados a una empresa puedan presentar preguntas, quejas, reclamos y sugerencias.
+##Sobre el Sistema PQRS
+Un sistema PQRS facilita que los clientes o afiliados de una organización puedan expresar preguntas, quejas, reclamos o sugerencias de manera eficiente.
 
-Un Sistema de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) es una herramienta que permite a una organización, conocer las inquietudes y manifestaciones que tienen sus clientes o afiliados. De esta forma se pueden realizar estrategias que permitan ofrecer un mejor servicio a los clientes.
+El Sistema de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) es una herramienta diseñada para que las empresas recopilen inquietudes y comentarios de sus clientes o usuarios. Esto les permite implementar estrategias orientadas a mejorar la calidad del servicio ofrecido.
 
-El proyecto se encuentra configurado con una empresa por defecto (LaShaviCorp) con una base de usuarios o clientes por defecto. El sistema recibe las solicitudes PQRS y de forma automática asigna a un usuario a dicha solicitud y enviá la información pertinente por correo electrónico al cliente. El cliente podra hacer seguimiento de los cambios en su solicitud.
+Este proyecto está configurado con una empresa predeterminada, LaShaviCorp, que incluye una base de usuarios predefinida. El sistema procesa automáticamente las solicitudes PQRS, asigna un usuario responsable y notifica al cliente mediante correo electrónico. Además, los clientes pueden realizar un seguimiento del estado y las actualizaciones de sus solicitudes.
 
-## Usuarios
-El sistema cuenta con 4 tipos de usuarios.
+##Tipos de Usuarios
+El sistema contempla cuatro roles principales de usuario:
 
-1. Administrador: Todos los privilegios.
-User: admin@example.com
-Pass: 123456
+Administrador: Tiene acceso a todas las funciones.
 
-2. Gerente: Puede revisar datos y crear usuarios.
-User: gerente@example.com
-Pass: 123456
+Usuario: admin@example.com
+Contraseña: 123456
+Gerente: Puede revisar información y gestionar usuarios.
 
-3. Parametrizador: Solo pede acceder al CRUD del sistema.
-User: parametrizador@example.com
-Pass: 123456
+Usuario: gerente@example.com
+Contraseña: 123456
+Parametrizador: Tiene acceso exclusivo al CRUD del sistema.
 
-4. Funcionario: Solo puede gestionar los PQRS.
-User: funcionario@example.com
-Pass: 123456
+Usuario: parametrizador@example.com
+Contraseña: 123456
+Funcionario: Su función principal es la gestión de las solicitudes PQRS.
 
-Los Clientes o Afiliados no necesitan tener cuenta para iniciar sesión, solo deben ingresar su cedula y si esta registrada el sistema permitirá hacer la solicitud.
-<!-- 5. Cliente/Afiliado: Solo puede crear solicitudes, recibir respuestas y replicar la respuesta.
-User: cliente@example.com
-Pass: 123456 -->
-
-        
-
-<!-- ## Instrucciones
-1. Clonar el proyecto.
-2. Composer install.
-2. Crear Base de datos.
-3. Configurar en el archivo .env las bases de datos.
-4. Genenar "Aplication Key" 
-5. Correr migraciones.
-6. Corres seed.
--->
-
-<!-- ## Objetivos
-1. Crear una plataforma que permita la facil gestión de las solicitudes PQRS a una organización por parte de sus clientes.
-
+Usuario: funcionario@example.com
+Contraseña: 123456
+Nota: Los clientes o afiliados no necesitan una cuenta para acceder al sistema. Solo deben ingresar su número de cédula y, si está registrado, podrán realizar solicitudes.
 
 ## License -->
